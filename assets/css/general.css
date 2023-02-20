@@ -1,0 +1,263 @@
+/*@import url(http://fonts.googleapis.com/css?family=Kreon:400,700);*/
+
+/********* Foundation Icons Sizes*************/
+.size-10 { font-size: 10px; }
+.size-11 { font-size: 11px; }
+.size-12 { font-size: 12px; } 
+.size-13 { font-size: 13px; }
+.size-14 { font-size: 14px; }
+.size-15 { font-size: 15px; }
+.size-16 { font-size: 16px; }
+.size-17 { font-size: 17px; }
+.size-18 { font-size: 18px; }
+.size-19 { font-size: 19px; }
+.size-20 { font-size: 20px; }
+.size-21 { font-size: 21px; }
+.size-22 { font-size: 22px; }
+.size-23 { font-size: 23px; }
+.size-24 { font-size: 24px; }
+.size-25 { font-size: 25px; }
+.size-26 { font-size: 26px; }
+.size-27 { font-size: 27px; }
+.size-28 { font-size: 28px; }
+.size-29 { font-size: 29px; }
+.size-30 { font-size: 30px; }
+.size-31 { font-size: 31px; }
+.size-32 { font-size: 32px; }
+.size-34 { font-size: 34px; }
+.size-36 { font-size: 36px; }
+.size-40 { font-size: 40px; }
+.size-44 { font-size: 44px; }
+.size-48 { font-size: 48px; }
+.size-55 { font-size: 55px; }
+.size-60 { font-size: 60px; }
+.size-72 { font-size: 72px; }
+.nobold {font-weight:500; }
+.makebold {font-weight:bold; }
+/*******************************************************/
+
+.pad-3 { padding: 3px; }
+.redtext{ color:#f00; }
+.yellowtext{ color:#ff0; }
+.whitetext{ color:#fff; }
+.bluetext{ color:#00f; }
+.greentext{ color:#090; }
+.redalerttext{ color:#AF4442; }
+.dashboardblue{color:#0081C2; }
+.nsegreen{color:#A8AC2E; }
+.nsegreen-dark{color:#70721E; }
+.nsebuttongreen{color:#585A18; }
+
+.padright{ padding-right:30px;}
+
+.AlertTheme{
+	background-color:#F4C2CE;
+	color:#71132A;
+	font-size:1.1em;
+	text-align:center;
+	padding:5px; 
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.SuccessTheme{
+	background-color:#D4EDDA;
+	color:#346F41;
+	font-size:1.1em;
+	text-align:center;
+	padding:5px; 
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+
+div.blockMsg {
+    width:  40%;
+    top:    30%;
+    left:   30%;
+    text-align: center;
+    background-color: #3D3E11;
+	color: #ffffff;
+    border: 1px solid #ddd;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); 
+    -moz-opacity:1;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+    opacity:1;
+    padding: 15px;
+	z-index:1000;
+}
+
+.btn-yellow {
+  background: #574500; /*rgb(250, 255, 140);*/
+  color: rgb(250, 255, 140); /*#574500;*/
+  border: none;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn-yellow:hover, .btn-yellow:focus {
+  background: rgb(252, 255, 179);
+}
+.btn-yellow:active {
+  background: rgb(247, 255, 71);
+}
+
+
+.btn-art-green {
+  background: #c53739; /*rgb(250, 255, 140);*/
+  color: rgb(250, 255, 140); /*#574500;*/
+  border: none;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn-art-green:hover, .btn-art-green:focus {
+  background: #E15254; /*rgb(252, 255, 179);*/
+}
+.btn-art-green:active {
+  background: rgb(247, 255, 71);
+}
+
+.btn-art-green:not( :hover ){ 
+	background: #c53739; /*rgb(250, 255, 140);*/
+	color: rgb(250, 255, 140); /*#574500;*/
+	border: none;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+
+.btn-nse-green,
+.btn-nse-green:active,
+.btn-nse-green:visited {
+  background-color: #585A18 !important;
+  color: #FFFFFF;
+}
+
+
+.btn-nse-darkgreen,
+.btn-nse-darkgreen:active,
+.btn-nse-darkgreen:visited {
+  background-color: #D1D387 !important;
+  color: #3D3E11;
+}
+
+.nsedarkgreen{color: #3D3E11;}
+
+.nsegreen{color: #585A18;}
+
+
+.btn-nse-green:hover {
+  background-color: #585A18 !important;
+  color: #E3E3E3;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+
+.btn-nse-green:not( :hover ){ 
+	background-color: #585A18 !important;
+  	color: #FFFFFF;
+}
+
+
+/*marquee_bak*/
+.marquee_bak {
+	width:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.marquee_bak span {
+  	display: inline-block;
+    padding-left: 100%;
+	
+	-moz-animation: marquee 35s linear infinite; /*35s*/
+	-webkit-animation: marquee 35s linear infinite;
+	-ms-animation: marquee 35s linear infinite;
+    animation: marquee 35s linear infinite;
+}
+
+@keyframes div {
+    0%  	{ transform: translateX(0); }
+    100% 	{ transform: translateX(-100%); }
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes marquee_bak {
+ 0%   { -moz-transform: translateX(0); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+
+@-o-keyframes marquee_bak {
+  0%  { -o-transform: translateX(0); }
+ 100% { -o-transform: translateX(-100%); }
+}
+
+@-webkit-keyframes marquee_bak {
+ 0%   { -webkit-transform: translateX(0); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+
+@-ms-keyframes marquee_bak {
+ 0%   { -webkit-ms: translateX(0); }
+ 100% { -webkit-ms: translateX(-100%); }
+}
+
+
+.marquee_bak.pause * {
+   -moz-animation-play-state: paused;
+   -webkit-animation-play-state: paused;
+   -o-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+
+/******************ORDER BOOK************************/
+.buy-table-striped>tbody>tr:nth-child(odd)>td, 
+.buy-table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #C2CCEE;
+   color:#000000;
+ }
+
+.buy-table-striped>tbody>tr:nth-child(even)>td, 
+.buy-table-striped>tbody>tr:nth-child(even)>th {
+   background-color: #D8DDF1;
+   color:#000000;
+ }
+ 
+ /*Sell*/
+ .sell-table-striped>tbody>tr:nth-child(odd)>td, 
+.sell-table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #F4D8EE;
+   color:#000000;
+ }
+
+.sell-table-striped>tbody>tr:nth-child(even)>td, 
+.sell-table-striped>tbody>tr:nth-child(even)>th {
+   background-color: #F3E8F1;
+   color:#000000;
+ }
+
+/* Bootstrap Tooltip width*/
+.tooltip-inner {
+    min-width: 250px;
+    max-width: 300px; 
+}
+
+.labelmiddle{padding-top:8px; margin-bottom:0; padding-left:5px;}
+
+.datepicker.dropdown-menu {
+    z-index: 9999 !important;
+}

@@ -1,0 +1,1 @@
+curl http:/localhost/artx/admin/ArtxCore/CloseMarket
