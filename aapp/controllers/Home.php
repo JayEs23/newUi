@@ -28,7 +28,7 @@ class Home extends CI_Controller {
 			echo '<script>window.location.replace("http://localhost/lvi/ui/Home/");</script>';
 		}else
 		{
-			echo '<script>window.location.replace("https://www.naijaartmart.com/ethoz/ui/Home/");</script>';
+			echo '<script>window.location.replace("http://derivedhomes.name/ui/Home/");</script>';
 		}
 	}
 }

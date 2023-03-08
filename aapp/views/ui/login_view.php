@@ -336,9 +336,9 @@ $logged_in = false;
 
 
 					if (ut=='broker'){
-						window.location.href='<?php echo site_url("ui/Dashboard"); ?>';
+						// window.location.href='<?php echo site_url("ui/Dashboard"); ?>';
 					}else if ((ut=='issuer') || (ut=='investor')){
-						window.location.href='<?php echo site_url("ui/Dashboardiv"); ?>';
+						// window.location.href='<?php echo site_url("ui/Dashboardiv"); ?>';
 					}
 
 					$.ajax({
@@ -356,9 +356,9 @@ $logged_in = false;
 		
 									if ($.trim(sta).toUpperCase()=='OK') {
 										if (ut=='broker') {
-											window.location.href='<?php echo site_url("ui/Dashboard"); ?>';
+											// window.location.href='<?php echo site_url("ui/Dashboard"); ?>';
 										}else if ((ut=='issuer') || (ut=='investor')) {
-											window.location.href='<?php echo site_url("ui/Dashboardiv"); ?>';
+											// window.location.href='<?php echo site_url("ui/Dashboardiv"); ?>';
 										}									
 									}else
 									{
