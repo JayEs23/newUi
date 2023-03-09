@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Naija Art Mart</title>
+        <title>Derived Homes</title>
         <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="Naija Art Mart - The New Art Market For Everyone">    
     <meta name="msapplication-tap-highlight" content="no"><!-- Disable tap highlight on IE -->

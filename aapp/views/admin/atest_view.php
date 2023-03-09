@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
   
-    <title>Naija Art Mart – Test</title>
+    <title>Derived Homes – Test</title>
 
 	<?php include('reportsheader.php'); ?>
     <?php include('reportscripts.php'); ?>

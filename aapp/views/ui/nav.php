@@ -3,7 +3,7 @@
                     <div class="navbar-inr">
                         <div class="logo-main">
                             <a href="<?php echo site_url('ui/Home') ?>" class="logo-otr">
-                                <img class="logo" style="padding: 2px; margin: 4px;min-height: 70px; min-width: 160px;" src="<?php echo base_url(); ?>/newassets/img/naija_art_mart1.png"alt="Logo">
+                                <img class="logo" style="padding: 2px; margin: 4px;min-height: 70px; min-width: 160px;" src="<?php echo base_url(); ?>/newassets/img/derivedlogo.png"alt="Logo">
                             </a>
                         </div>
                         <div class="navigation-otr">

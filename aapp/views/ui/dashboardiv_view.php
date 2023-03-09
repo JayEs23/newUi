@@ -13,7 +13,7 @@ $logged_in = true;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="<?php echo base_url(); ?>/assets/images/favicon_artsquare_16x16.png" sizes="16x16">
-    <title> Naija Art Mart | <?php echo $usertype; ?> Dashboard</title>
+    <title> Derived Homes | <?php echo $usertype; ?> Dashboard</title>
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/owl.carousel/dist/assets/owl.theme.default.min.css">

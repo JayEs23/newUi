@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Naija Art Mart - Order Types</title>
+    <title>Derived Homes - Order Types</title>
     <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="Naija Art Mart - The New Art Market For Everyone">    
     <meta name="msapplication-tap-highlight" content="no"><!-- Disable tap highlight on IE -->
