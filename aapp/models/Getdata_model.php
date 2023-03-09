@@ -6789,7 +6789,7 @@ class Getdata_model extends CI_Model
 					
 					$change=floatval($row['close_price']) - $prev;
 					
-					$change_percent = (floatval($row['previous_close_price']) > 0) ? number_format(floatval($change)/floatval($row['previous_close_price']) * 100,2) : 0;
+					@$change_percent= number_format(floatval($change)/floatval($row['previous_close_price']) * 100,2);
 					
 					if (floatval($change_percent) < 0) //down
 					{
