@@ -33,7 +33,7 @@ class Getdata_model extends CI_Model
 				echo '<script>window.location.replace("http://localhost/lvi/admin/Signin");</script>';
 			}else
 			{
-				echo '<script>window.location.replace("https://www.naijaartmart.com/admin/Signin");</script>';
+				echo '<script>window.location.replace("https://derivedhomes.name/ui/Signin");</script>';
 			}	
 		}else
 		{
@@ -42,7 +42,7 @@ class Getdata_model extends CI_Model
 				echo '<script>window.location.replace("http://localhost/lvi/ui/Home");</script>';
 			}else
 			{
-				echo '<script>window.location.replace("https://www.naijaartmart.com/ethoz/ui/Home");</script>';
+				echo '<script>window.location.replace("http://derivedhomes.name/ui/Home");</script>';
 			}	
 
 		}		
@@ -4112,7 +4112,7 @@ class Getdata_model extends CI_Model
 		return array('Sell'=>$sell,'Buy'=>$buy);
 	}
 	
-	function SendMessage($header,$details,$msgtype,$groups,$emails,$phones,$category,$expiredate=NULL,$display_status,$sender)
+	function  SendMessage($header,$details,$msgtype,$groups,$emails,$phones,$category,$display_status,$sender,$expiredate = NULL)
 	{
 		$ex=explode(",",$msgtype);
 		
@@ -4136,7 +4136,7 @@ class Getdata_model extends CI_Model
 			
 			if (strtolower(trim($ex[$i])) == 'system')
 			{
-				$ret=$this->SendMsg($emails,$groups,$header,$details,$category,$expiredate,$display_status,$sender);
+				$ret = $this->SendMsg($emails, $groups, $header, $details, $category, $sender, $expiredate, $display_status);
 			}	
 		}		
 		
@@ -4144,7 +4144,7 @@ class Getdata_model extends CI_Model
 		return true;
 	}
 	
-	function SendMsg($emails,$groups,$header,$details,$category,$expiredate=NULL,$display_status='0',$sender)
+	function SendMsg($emails, $groups, $header, $details, $category, $sender, $expiredate=NULL, $display_status='0')
 	{
 		$msgdate=date('Y-m-d H:i:s');		
 		$msgid=$this->GetId('messages','msgid');
@@ -4610,7 +4610,8 @@ class Getdata_model extends CI_Model
 		{
 			$msgtype .= ',email';
 			$details=$result['msg']." Trade Id is ".$result['trade_id'].".";
-			$res=$this->SendMessage($header,$details,$msgtype,$groups,$emails,$phones,$category,$expiredate,$display_status,$sender);
+			$res = $this->SendMessage($header, $details, $msgtype, $groups, $emails, $phones, $category, $display_status, $sender, $expiredate);
+
 			
 			//Send Message to transacting partners - transact_partners
 			//$transact_partners= array("symbol","broker_id","investor_id","qty","price",'sms_fee','transtype');
@@ -4649,7 +4650,7 @@ class Getdata_model extends CI_Model
 													
 						if (floatval($part['sms_fee']) > 0) $msgtype .= ',sms';
 						
-						$res=$this->SendMessage($header,$details,$msgtype,$groups,$emails,$phones,$category,$expiredate,$display_status,$sender);
+						$res = $this->SendMessage($header, $details, $msgtype, $groups, $emails, $phones, $category, $display_status, $sender, $expiredate);
 					}
 				endforeach;
 			}
@@ -4658,12 +4659,12 @@ class Getdata_model extends CI_Model
 			$header=$transtype.' Order Report';
 			$details=$result['msg'];
 			
-			$res=$this->SendMessage($header,$details,$msgtype,$groups,$emails,$phones,$category,$expiredate,$display_status,$sender);
+			$res = $this->SendMessage($header, $details, $msgtype, $groups, $emails, $phones, $category, $display_status, $sender, $expiredate);
 		}elseif (strtolower(trim($result['Status']))=='fail')//Trade Failed
 		{
 			$details=$result['msg'];
 			
-			$res=$this->SendMessage($header,$details,$msgtype,$groups,$emails,$phones,$category,$expiredate,$display_status,$sender);
+			$res = $this->SendMessage($header, $details, $msgtype, $groups, $emails, $phones, $category, $display_status, $sender, $expiredate);
 		}		
 				
 		return true;
@@ -6788,7 +6789,7 @@ class Getdata_model extends CI_Model
 					
 					$change=floatval($row['close_price']) - $prev;
 					
-					$change_percent= number_format(floatval($change)/floatval($row['previous_close_price']) * 100,2);
+					$change_percent = (floatval($row['previous_close_price']) > 0) ? number_format(floatval($change)/floatval($row['previous_close_price']) * 100,2) : 0;
 					
 					if (floatval($change_percent) < 0) //down
 					{
@@ -7653,7 +7654,7 @@ class Getdata_model extends CI_Model
 			
 			$details="Current Naija Art Mart bulk SMS balance is NGN".number_format($bal,2).". Your need to credit your bulk SMS wallet as soon as possible.";
 			
-			$res=$this->SendMessage($header,$details,$msgtype,$groups,$emails,$phones,$category,$expiredate,$display_status,$sender);
+			$res = $this->SendMessage($header, $details, $msgtype, $groups, $emails, $phones, $category, $display_status, $sender, $expiredate);
 			
 			
 			//Send EMAIL to Issuer
@@ -7756,8 +7757,9 @@ class Getdata_model extends CI_Model
 		return $min + $rnd;
 	}
 	
-	function GetTransactionCode($length = 24,$Id)
+	function GetTransactionCode($length,$Id)
 	{
+		$length = !empty($length)? $length: 24;
 		$token = "";
 		
 		$codeAlphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ";

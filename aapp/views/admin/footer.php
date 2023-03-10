@@ -6,7 +6,7 @@
                 <ul class="header-megamenu nav">
                     <li class="nav-item">
                         <a data-placement="top" rel="popover-focus" data-offset="300" >
-                            &copy; Copyright <strong>Naija Art Mart</strong> <?php echo date('Y'); ?>. All Rights Reserved
+                            &copy; Copyright <strong>Derived Homes</strong> <?php echo date('Y'); ?>. All Rights Reserved
                         </a>                                       
                     </li>
                     

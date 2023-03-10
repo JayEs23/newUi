@@ -1104,7 +1104,7 @@ if (!function_exists('phpseclib_mcrypt_list_algorithms')) {
          * @return int
          * @access public
          */
-        public function filter($in, $out, &$consumed, $closing)
+        public function filter($in, $out, &$consumed, $closing): int
         {
             $newlen = 0;
             while ($bucket = stream_bucket_make_writeable($in)) {
@@ -1157,7 +1157,7 @@ if (!function_exists('phpseclib_mcrypt_list_algorithms')) {
          * @return bool
          * @access public
          */
-        public function onCreate()
+        public function onCreate(): bool
         {
             if (!isset($this->params) || !is_array($this->params)) {
                 trigger_error('stream_filter_append(): Filter parameters for ' . $this->filtername . ' must be an array');
@@ -1220,7 +1220,7 @@ if (!function_exists('phpseclib_mcrypt_list_algorithms')) {
          * @link http://php.net/manual/en/php-user-filter.onclose.php
          * @access public
          */
-        public function onClose()
+        public function onClose(): void
         {
             if ($this->bh) {
                 fclose($this->bh);
