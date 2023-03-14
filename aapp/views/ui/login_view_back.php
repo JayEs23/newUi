@@ -9,8 +9,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <noscript>False</noscript>
-    <title>Naija Art Market - Login</title>
-    <link rel="icon" href="<?php echo base_url(); ?>wp-content/uploads/favicon_artsquare_16x16.png" type="image/png" sizes="16x16"/>
+    <title>Derived Homes - Login</title>
+    <link rel="icon" href="<?php echo base_url(); ?>wp-content/uploads/d_favicon.png" type="image/png" sizes="16x16"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/general.css" />
