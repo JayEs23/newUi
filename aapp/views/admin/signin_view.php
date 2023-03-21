@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Derived Homes | Admin Login</title>
     <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Naija Art Mart - The New Market For Everyone">    
+    <meta name="description" content="Derived Homes - The New Market For Everyone">    
     <meta name="msapplication-tap-highlight" content="no"><!-- Disable tap highlight on IE -->
     
     <?php include('header.php'); ?>
@@ -30,14 +30,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		.bootbox .modal-header{ display: block; }
   </style>
   
-	<script>
+<script>
 	history.pushState(null, null, location.href);
 		
 	window.onpopstate = function () {
 		history.go(1);
 	};
 	
-	var Title='<font color="#AF4442">Naija Art Mart Help</font>';
+	var Title='<font color="#AF4442">Derived Homes Help</font>';
 	
 	function DisplayMessage(msg,msgtype,msgtitle,theme='AlertTheme')
 	{
@@ -336,9 +336,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 
                                 <div>
                                     <div class="position-relative h-100 d-flex justify-content-center align-items-center bg-premium-dark" tabindex="-1">
-                                        <div class="slide-img-bg" style="background-image: url('<?php echo base_url(); ?>assets/front/images/app-bg.jpg');"></div>
+                                        <div class="slide-img-bg" style="background-image: url('https://www.rlbaccountants.com/wp-content/uploads/2020/02/realestate.jpg');"></div>
                                         <div class="slider-content"><h3>Innovative Exchange</h3>
-                                            <p>The New Art Market For Everyone.</p></div>
+                                            <p>The New Real Estate Market For Everyone.</p></div>
                                     </div>
                                 </div>
                                 
@@ -349,7 +349,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="h-100 d-flex bg-white justify-content-center align-items-center col-md-11 col-lg-5">
                         <div class="mx-auto app-login-box col-sm-12 col-md-10 col-lg-9">
                             
-                            <div title="Naija Art Mart Home" OnClick="window.location.href='<?php echo site_url('ui/Home');?>';" style="cursor:pointer;" class="app-logo"></div>
+                            <div title="Derived Homes Home" OnClick="window.location.href='<?php echo site_url('ui/Home');?>';" style="cursor:pointer; background-size: contain; ;" class="app-logo"></div>
                             
                             <h4 class="mb-0">
                                 <span style="text-transform:uppercase;">Please sign in to your account.</span></h4>
@@ -381,7 +381,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                   
                                      <div class="form-row">
                                         <div>                                           
-                                           <button style="min-width:100px" id="btnSignIn" class="btn btn-pill btn-nse-green" type="button"> Login </button>
+                                           <button style="min-width:100px" id="btnSignIn" class="btn btn-pill btn-primary" type="button"> Login </button>
                                         </div>
                                     </div>
                                     
@@ -395,9 +395,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         
                         <br><br>
-                        	<!--<div align="center">
-	<span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=3727e1vZgu7gH15VkOvqO14iy1OUDa895AVCYbuwJsyoyLcuafrh68NgzohQ"></script></span>
-</div>-->
+                        	
                         
                         </div>
                     </div>

@@ -12,8 +12,8 @@ $logged_in = true;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="<?php echo base_url(); ?>/assets/images/favicon_artsquare_16x16.png" sizes="16x16">
-    <title> Naija Art Mart | <?php echo $usertype; ?> Dashboard</title>
+    <link rel="icon" href="<?php echo base_url(); ?>/assets/images/d_favicon.png" sizes="16x16">
+    <title> Derived Homes | <?php echo $usertype; ?> Dashboard</title>
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/owl.carousel/dist/assets/owl.theme.default.min.css">
@@ -263,7 +263,7 @@ $logged_in = true;
                         <img class="logo" style="min-height: 40px; min-width: 30px; border-radius: 16px;" src="<?php echo base_url(); ?>/newassets/img/naija_art_mart1.png"  alt="brand-logo">
                     </a>
                     <div class="copy-name body-s">
-                        Copyright © 2022  <a href="#" target="_blank" class="name body-sb">Naija Art Mart.</a>
+                        Copyright © 2022  <a href="#" target="_blank" class="name body-sb">Derived Homes.</a>
                     </div>
                     <div class="all-rights">
                         <p class="all body-s">
@@ -287,7 +287,7 @@ $logged_in = true;
     <script src="<?php echo base_url(); ?>/newassets/js/app.js"></script>
 
     <script>
-    var Title='Naija Art Mart Help';
+    var Title='Derived Homes Help';
     var m='';
     var Email='<?php echo $email; ?>';
     var Usertype='<?php echo trim($usertype); ?>';

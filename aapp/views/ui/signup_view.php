@@ -23,7 +23,7 @@
             signup Start Here
     ========================================-->
 
-        <div class="signup-main">
+        <div class="signup-main" style="background:url('https://www.rlbaccountants.com/wp-content/uploads/2020/02/realestate.jpg') !important; background-repeat: no-repeat; background-size: cover !important;">
             <div class="container-fluid">
                 <div class="sign-up">
                     <div class="nav-bar">
@@ -40,10 +40,10 @@
                         </div>
                     </div>
                     <div class="row row-login">
-                        <div class="col-lg-6 col-login-otr">
+                        <div class="col-lg-10 col-login-otr">
                             <div class="col-login-inr">
                                 <div class="content">
-                                    <h3 class="head heading-h3">Sign Up to Naija Art Mart</h3>
+                                    <h3 class="head heading-h3">Sign Up to Derived Homes</h3>
                                     <div class="login-social">
                                         <span class="line"></span>
                                         <p class="desc body-s">Choose Category</p>
@@ -60,20 +60,28 @@
                                         <span class="line"></span>
                                     </div>
                                     <form class="form-main" method="post">
-                                        <div class="input-otr">
-                                            <input class="input" type="text" name="fname" placeholder="Your Full Name" id="txtUserName" required>
+                                        <div class="row">
+                                            <div class="input-otr col-md-12">
+                                                <input class="input" type="text" name="fname" placeholder="Your Full Name" id="txtUserName" required>
+                                            </div>
                                         </div>
-                                        <div class="input-otr">
-                                            <input class="input" type="email" id="txtEmail" placeholder="Your Email Address" required>
+                                        <div class="row">
+                                            <div class="input-otr col-md-6">
+                                                <input class="input" type="email" id="txtEmail" placeholder="Your Email Address" required>
+                                            </div>
+                                        
+                                                
+                                            <div class="input-otr col-md-6">
+                                                <input class="input" type="tel" id="txtPhone" placeholder="Your Phone Number" required>
+                                            </div>
                                         </div>
-                                        <div class="input-otr">
-                                            <input class="input" type="tel" id="txtPhone" placeholder="Your Phone Number" required>
-                                        </div>
-                                        <div class="input-otr">
-                                            <input class="input" type="password" id="txtPwd" placeholder="Set Your Password" required>
-                                        </div>
-                                        <div class="input-otr input-otr-2">
-                                            <input class="input" type="password" id="txtConfirm" placeholder="Confirm Password" required>
+                                        <div class="row">
+                                            <div class="input-otr col-md-6">
+                                                <input class="input" type="password" id="txtPwd" placeholder="Set Your Password" required>
+                                            </div>
+                                            <div class="input-otr input-otr-2 col-md-6">
+                                                <input class="input" type="password" id="txtConfirm" placeholder="Confirm Password" required>
+                                            </div>
                                         </div>
                                         <div class="check-main">
                                             <div class="check">
@@ -467,7 +475,7 @@
       }
     }
 
-    var Title='Naija Art Mart Help';
+    var Title='Derived Homes Help';
     var m='';
     /**
         * Displays Alert Message

@@ -30,7 +30,7 @@ $logged_in = false;
             login Start Here
     ========================================-->
 
-        <div class="login-main" style="background: url('https://www.naijaartmart.com/assets/front/images/we-have-designed.jpg') !important; background-repeat: no-repeat; background-size: cover !important;">
+        <div class="login-main"  style="background: url('https://www.rlbaccountants.com/wp-content/uploads/2020/02/realestate.jpg') !important; background-repeat: no-repeat; background-size: cover !important;">
             <div class="container-fluid">
                 <div class="log-in">
                     <div class="nav-bar">
@@ -124,7 +124,7 @@ $logged_in = false;
 	<script type="text/javascript" src="<?php echo base_url();?>assets/js/back.js"></script>
 
     <script type="text/javascript">
-    	let Title= "Naija Art Mart Help!";
+    	let Title= "Derived Homes Help!";
     	let m = '';
 
     	/**
@@ -402,6 +402,7 @@ $logged_in = false;
 						success: function(data,status,xhr) {
 							
 							var sta='';
+							alert(data);
 							
 							if ($(data).length > 0){
 								$.each($(data), function(i,e){

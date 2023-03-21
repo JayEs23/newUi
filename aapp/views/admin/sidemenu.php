@@ -20,7 +20,7 @@
 	{
 		try
 		{
-			var Title='<font color="#AF4442">Naija Art Mart Help</font>';
+			var Title='<font color="#AF4442">Derived Homes Help</font>';
 			var m='';
 			
 			Swal.fire({

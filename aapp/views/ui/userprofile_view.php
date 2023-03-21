@@ -10,7 +10,7 @@ $logged_in = true;
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Naija Art Mart | <?php echo $usertype; ?> User Profile</title>
+    <title>Derived Homes | <?php echo $usertype; ?> User Profile</title>
     <!-- base:css -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
@@ -26,7 +26,7 @@ $logged_in = true;
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap-datepicker3.min.css" >
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet"><!-- GOOGLE FONTS -->
     <link href="<?php echo base_url();?>assets/css/datatables.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="https://www.naijaartmart.com/assets/images/favicon_artsquare_16x16.png" />
+    <link rel="shortcut icon" href="https://www.naijaartmart.com/assets/images/d_favicon.png" />
     <style type="text/css">
         @media (max-width: 720px)
             .container-fluid {
@@ -252,10 +252,10 @@ $logged_in = true;
   <div class="container-fluid">
       <div class="copy-inr">
           <a href="#" class="logo-otr">
-              <img class="logo" style="min-height: 40px; min-width: 30px; border-radius: 16px;" src="<?php echo base_url(); ?>/newassets/img/naija_art_mart1.png"  alt="brand-logo">
+              <img class="logo" style="min-height: 40px; min-width: 30px; border-radius: 16px;" src="<?php echo base_url(); ?>/newassets/img/derivedlogo.png"  alt="brand-logo">
           </a>
           <div class="copy-name body-s">
-              Copyright © 2022  <a href="#" target="_blank" class="name body-sb">Naija Art Mart.</a>
+              Copyright © 2022  <a href="#" target="_blank" class="name body-sb">Derived Homes.</a>
           </div>
           <div class="all-rights">
               <p class="all body-s">
@@ -291,7 +291,7 @@ $logged_in = true;
 
     <script src="<?php echo base_url();?>assets/js/general.js"></script>
    <script>
-        var Title='Naija Art Mart Help';
+        var Title='Derived Homes Help';
         var m='';
         var Email='<?php echo $email; ?>';
         var Usertype='<?php echo $usertype; ?>';

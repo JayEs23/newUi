@@ -126,7 +126,7 @@ $('#live-auctions').owlCarousel({
   dots: false,
   autoplay: false,
   nav: true,
-  navText: ["<img src='/assets/img/svg/ArrowRight.svg'>", "<img src='/assets/img/svg/ArrowLeft.svg'>"],
+  navText: ["<img src='/newassets/img/svg/ArrowRight.svg'>", "<img src='/newassets/img/svg/ArrowLeft.svg'>"],
   responsive: {
     0: {
       items: 1,
@@ -150,7 +150,7 @@ $('#inner-page-1').owlCarousel({
   dots: false,
   autoplay: false,
   nav: true,
-  navText: ["<img src='/assets/img/svg/ArrowRight.svg'>", "<img src='/assets/img/svg/ArrowLeft.svg'>"],
+  navText: ["<img src='/newassets/img/svg/ArrowRight.svg'>", "<img src='/newassets/img/svg/ArrowLeft.svg'>"],
   responsive: {
     0: {
       items: 1,
@@ -174,7 +174,7 @@ $('#inner-page-2').owlCarousel({
   dots: false,
   autoplay: false,
   nav: true,
-  navText: ["<img src='/assets/img/svg/ArrowRight.svg'>", "<img src='/assets/img/svg/ArrowLeft.svg'>"],
+  navText: ["<img src='/newassets/img/svg/ArrowRight.svg'>", "<img src='/newassets/img/svg/ArrowLeft.svg'>"],
   responsive: {
     0: {
       items: 1,
@@ -198,7 +198,7 @@ $('#popular-artwork').owlCarousel({
   dots: false,
   autoplay: false,
   nav: true,
-  navText: ["<img src='/assets/img/svg/ArrowRight.svg'>", "<img src='/assets/img/svg/ArrowLeft.svg'>"],
+  navText: ["<img src='/newassets/img/svg/ArrowRight.svg'>", "<img src='/newassets/img/svg/ArrowLeft.svg'>"],
   responsive: {
     0: {
       items: 1,
@@ -228,7 +228,7 @@ $('#popular-collection-home2').owlCarousel({
   dots: false,
   autoplay: false,
   nav: true,
-  navText: ["<img src='/assets/img/svg/ArrowRight.svg'>", "<img src='/assets/img/svg/ArrowLeft.svg'>"],
+  navText: ["<img src='/newassets/img/svg/ArrowRight.svg'>", "<img src='/newassets/img/svg/ArrowLeft.svg'>"],
   responsive: {
     0: {
       items: 1,
@@ -258,7 +258,7 @@ $('#hero5-carousel').owlCarousel({
   dots: false,
   autoplay: true,
   autoWidth: true,
-  navText: ["<img src='/assets/img/svg/ArrowRightWhite.svg'>", "<img src='/assets/img/svg/ArrowLeftWhite.svg'>"],
+  navText: ["<img src='/newassets/img/svg/ArrowRightWhite.svg'>", "<img src='/newassets/img/svg/ArrowLeftWhite.svg'>"],
   responsive: {
     0: {
       center: true,
