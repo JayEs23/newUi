@@ -218,7 +218,7 @@ $logged_in = true;
                                 
                                 <div class="col-md-3">
                                     <label class="small mb-1" for="txtLocation">Display Location *</label>
-                                    <input class="form-control" id="txtLocation" type="text" placeholder="Artwork Display Location" >
+                                    <input class="form-control" id="txtLocation" type="text" placeholder="Listing Display Location" >
                                 </div>
                                 <!-- Form Group (birthday)-->
                                 <div class="col-md-3">
