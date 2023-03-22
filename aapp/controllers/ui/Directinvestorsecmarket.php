@@ -257,7 +257,21 @@ class Directinvestorsecmarket extends CI_Controller {
 			{
 				$latestdate=$this->getdata_model->GetLatestDate('historical_prices','price_date');			
 				
-				$qry = "SELECT historical_prices.*, (SELECT blockchainUrl FROM art_works WHERE TRIM(art_works.symbol)=TRIM(historical_prices.symbol) LIMIT 0,1) AS blockchainUrl, (SELECT art_pix1 FROM art_works WHERE TRIM(art_works.symbol)=TRIM(historical_prices.symbol) LIMIT 0,1) AS pix, (SELECT title FROM art_works WHERE TRIM(art_works.symbol)=TRIM(historical_prices.symbol) LIMIT 0,1) AS title, (SELECT creationyear FROM art_works WHERE TRIM(art_works.symbol)=TRIM(historical_prices.symbol) LIMIT 0,1) AS creationyear FROM historical_prices JOIN direct_orders ON historical_prices.symbol = direct_orders.symbol WHERE (DATE_FORMAT(price_date,'%Y-%m-%d')='".$latestdate."') GROUP BY historical_prices.symbol ORDER BY symbol";
+				$qry = "SELECT 
+			          historical_prices.*, 
+			          (SELECT blockchainUrl FROM art_works WHERE TRIM(art_works.symbol) = TRIM(historical_prices.symbol) LIMIT 0,1) AS blockchainUrl, 
+			          (SELECT art_pix1 FROM art_works WHERE TRIM(art_works.symbol) = TRIM(historical_prices.symbol) LIMIT 0,1) AS pix, 
+			          (SELECT title FROM art_works WHERE TRIM(art_works.symbol) = TRIM(historical_prices.symbol) LIMIT 0,1) AS title, 
+			          (SELECT creationyear FROM art_works WHERE TRIM(art_works.symbol) = TRIM(historical_prices.symbol) LIMIT 0,1) AS creationyear 
+			        FROM 
+			          historical_prices 
+			          JOIN direct_orders ON historical_prices.symbol = direct_orders.symbol 
+			        WHERE 
+			          DATE_FORMAT(price_date,'%Y-%m-%d') = '".$latestdate."' 
+			        GROUP BY 
+			          historical_prices.symbol, 
+			          blockchainUrl 
+			        ORDER BY symbol";
 	
 			}	
 			

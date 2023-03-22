@@ -182,8 +182,8 @@ class Dashboardiv extends CI_Controller {
 					$data['TotalIssuerCurrentlyListedSecurities'] = $this->getdata_model->GetTotalIssuerCurrentlyListedSecurities($data['issuer_id']);
 					$data['TotalIssuerCurrentlyListedSecuritiesValue'] = $this->getdata_model->GetTotalIssuerCurrentlyListedSecuritiesValue($data['email']);
 					$data['LastestPixs'] = $this->getdata_model->GetLatestListings();
-					print_r($data);
-					die();
+					// print_r($data);
+					// die();
 					$this->load->view('ui/dashboardiv_view',$data);
 				}				
 			}else

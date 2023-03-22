@@ -10,7 +10,7 @@ $logged_in = false;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://www.naijaartmart.com/assets/images/favicon_artsquare_16x16.png" sizes="16x16">
+    <link rel="icon" href="https://www.naijaartmart.com/assets/images/d_favicon.png" sizes="16x16">
     <title>Derived Homes - Sign in.</title>
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
@@ -30,7 +30,7 @@ $logged_in = false;
             login Start Here
     ========================================-->
 
-        <div class="login-main" style="background: url('https://www.naijaartmart.com/assets/front/images/we-have-designed.jpg') !important; background-repeat: no-repeat; background-size: cover !important;">
+        <div class="login-main"  style="background: url('https://www.rlbaccountants.com/wp-content/uploads/2020/02/realestate.jpg') !important; background-repeat: no-repeat; background-size: cover !important;">
             <div class="container-fluid">
                 <div class="log-in">
                     <div class="nav-bar">
@@ -50,7 +50,7 @@ $logged_in = false;
                         <div class="col-lg-6 col-md-8 col-login-otr">
                             <div class="col-login-inr">
                                 <div class="content">
-                                    <h3 class="head heading-h3">Naija Art Mart</h3>
+                                    <h3 class="head heading-h3">Derived Homes</h3>
                                     <div class="login-social">
                                         <span class="line"></span>
                                         <p class="desc body-s">Login</p>
@@ -91,10 +91,10 @@ $logged_in = false;
 		      <div class="container-fluid">
 		          <div class="copy-inr">
 		              <a href="#" class="logo-otr">
-		                  <img class="logo" style="min-height: 40px; min-width: 30px; border-radius: 16px;" src="<?php echo base_url(); ?>/newassets/img/naija_art_mart1.png"  alt="brand-logo">
+		                  <img class="logo" style="min-height: 40px; min-width: 30px; border-radius: 16px;" src="<?php echo base_url(); ?>/newassets/img/derivedlogo.png"  alt="brand-logo">
 		              </a>
 		              <div class="copy-name body-s">
-		                  Copyright © 2022  <a href="#" target="_blank" class="name body-sb">Naija Art Mart.</a>
+		                  Copyright © 2022  <a href="#" target="_blank" class="name body-sb">Derived Homes</a>
 		              </div>
 		              <div class="all-rights">
 		                  <p class="all body-s">
@@ -124,7 +124,7 @@ $logged_in = false;
 	<script type="text/javascript" src="<?php echo base_url();?>assets/js/back.js"></script>
 
     <script type="text/javascript">
-    	let Title= "Naija Art Mart Help!";
+    	let Title= "Derived Homes Help!";
     	let m = '';
 
     	/**
@@ -402,6 +402,7 @@ $logged_in = false;
 						success: function(data,status,xhr) {
 							
 							var sta='';
+							alert(data);
 							
 							if ($(data).length > 0){
 								$.each($(data), function(i,e){

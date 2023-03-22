@@ -13,8 +13,8 @@ $logged_in = true;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://www.naijaartmart.com/assets/images/favicon_artsquare_16x16.png" sizes="16x16">
-    <title> Naija Art Mart | <?php echo $userType; ?> Listings</title>
+    <link rel="icon" href="https://www.naijaartmart.com/assets/images/d_favicon.png" sizes="16x16">
+    <title> Derived Homes | <?php echo $userType; ?> Listings</title>
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/owl.carousel/dist/assets/owl.theme.default.min.css">
@@ -195,15 +195,15 @@ $logged_in = true;
                             <div id="data">
                                 <div class="card mb-4">
                     <form>
-                        <div class="card-header">Art Information</div>
+                        <div class="card-header">Listing Information</div>
                         <div class="card-body">
                                     
                             <!-- Form Row-->
                             <div class="row gx-3 mb-3">
                                 <!-- Form Group (last name)-->
                                 <div class="col-md-3">
-                                    <label class="small mb-1" for="txtArtist">Artist Name *</label>
-                                    <input class="form-control" id="txtArtist" type="text" placeholder="Name of Artist">
+                                    <label class="small mb-1" for="txtArtist">Listing Agent Name *</label>
+                                    <input class="form-control" id="txtArtist" type="text" placeholder="Name of Agent">
                                 </div>
                                 <!-- Form Group (last name)-->
                                 <div class="col-md-3">
@@ -212,36 +212,36 @@ $logged_in = true;
                                 </div>
                                 <!-- Form Group (first name)-->
                                 <div class="col-md-6">
-                                    <label class="small mb-1" title="Title of work" for="txtTitle">Art Title *</label>
-                                    <input class="form-control"  type="text" id="txtTitle" placeholder="Title of Work" >
+                                    <label class="small mb-1" title="Title of work" for="txtTitle">Listing Title *</label>
+                                    <input class="form-control"  type="text" id="txtTitle" placeholder="Title of Listing" >
                                 </div>
                                 
                                 <div class="col-md-3">
                                     <label class="small mb-1" for="txtLocation">Display Location *</label>
-                                    <input class="form-control" id="txtLocation" type="text" placeholder="Artwork Display Location" >
+                                    <input class="form-control" id="txtLocation" type="text" placeholder="Listing Display Location" >
                                 </div>
                                 <!-- Form Group (birthday)-->
                                 <div class="col-md-3">
-                                    <label class="small mb-1" for="txtDimension">Art Demensions</label>
-                                    <input class="form-control" type="text" id="txtDimension" placeholder="Artwork Dimensions">
+                                    <label class="small mb-1" for="txtDimension">Listing Dimensions</label>
+                                    <input class="form-control" type="text" id="txtDimension" placeholder="Listing Dimensions">
                                 </div>
                                 <!-- Form Group (location)-->
                                 <div class="col-md-3">
-                                    <label class="small mb-1" for="txtValue">Art Value(₦)</label>
-                                    <input class="form-control" type="text" id="txtValue" placeholder="Artwork's Value">
+                                    <label class="small mb-1" for="txtValue">Listing Value(₦)</label>
+                                    <input class="form-control" type="text" id="txtValue" placeholder="Listing's Value">
                                 </div>
                                 <!-- Form Group (organization name)-->
                                 <div class="col-md-3">
-                                    <label class="small mb-1" for="txtDocument">Art Document</label>
-                                     <input accept=".pdf" title="Upload Art Document" type="file" id="txtDocument" class="input-file" placeholder="Upload Artwork Document" style="padding: 12px;" />
+                                    <label class="small mb-1" for="txtDocument">Listing Document Document</label>
+                                     <input accept=".pdf" title="Upload Art Document" type="file" id="txtDocument" class="input-file" placeholder="Upload Listing Document" style="padding: 12px;" />
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="small mb-1" for="txtDocument">Art Description</label>
-                                    <textarea rows="3" id="txtDescription" placeholder="Artwork Description" class="form-control"></textarea>
+                                    <label class="small mb-1" for="txtDocument">Listing Description</label>
+                                    <textarea rows="3" id="txtDescription" placeholder="Listing Description" class="form-control"></textarea>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="small mb-1" for="txtDocument">Art Materials</label>
-                                    <textarea rows="3" id="txtMaterials" placeholder="Artwork Materials" class="form-control"></textarea>
+                                    <label class="small mb-1" for="txtDocument">Listing Materials</label>
+                                    <textarea rows="3" id="txtMaterials" placeholder="Listing's Materials" class="form-control"></textarea>
                                 </div>
                                 <div class="col-md-3">
                                     <label class="small mb-1" for="txtTokens">No Of Tokens</label>
@@ -267,42 +267,42 @@ $logged_in = true;
                             <!-- Form Group (email address)-->
                                   
                         </div>
-                        <div class="card-header">Art Media</div>
+                        <div class="card-header">Listing Media</div>
                         <div class="card-body">
                             <div class="row gx-3 mb-3">
                                 <div class="col-md-3">
-                                    <label title="Upload art picture number one (jpg or png format)" for="txtPix1" class="small mb-1">Art Picture 1
+                                    <label title="Upload Listing Image number one (jpg or png format)" for="txtPix1" class="small mb-1">Listing Image 1
                                         <span class="redtext">*</span>
                                     </label>
                                     <img class="rounded img-thumbnail" id="imgPix1" onclick="LoadPix('imgPix1','1');" style="height:200px; margin-top:10px; border:solid 1px inherit;" />
                                             
-                                    <input accept="image/jpg, .jpg" type="file" id="txtPix1" class="input-file" placeholder="Art Picture 1" onchange="GetPix(this,'1');" />
+                                    <input accept="image/jpg, .jpg" type="file" id="txtPix1" class="input-file" placeholder="Listing Image 1" onchange="GetPix(this,'1');" />
                                                
                                 </div>
                                 <div class="col-md-3">
-                                    <label title="Upload art picture number one (jpg or png format)" for="txtPix2" class="small mb-1">Art Picture 2
+                                    <label title="Upload Listing Image number one (jpg or png format)" for="txtPix2" class="small mb-1">Listing Image 2
                                     </label>
                                     <img class="rounded img-thumbnail" id="imgPix2" onclick="LoadPix('imgPix2','2');" style="height:200px; margin-top:10px; border:solid 1px inherit;" />
                                             
-                                    <input accept="image/jpg, .jpg" type="file" id="txtPix2" class="input-file" placeholder="Art Picture 2" onchange="GetPix(this,'2');" />
+                                    <input accept="image/jpg, .jpg" type="file" id="txtPix2" class="input-file" placeholder="Listing Image 2" onchange="GetPix(this,'2');" />
                                                
                                 </div>
                                 <div class="col-md-3">
-                                    <label title="Upload art picture number one (jpg or png format)" for="txtPix3" class="small mb-1">Art Picture 3
+                                    <label title="Upload Listing Image number one (jpg or png format)" for="txtPix3" class="small mb-1">Listing Image 3
                                         <span class="redtext">*</span>
                                     </label>
                                     <img class="rounded img-thumbnail" id="imgPix3" onclick="LoadPix('imgPix3','3');" style="height:200px; margin-top:10px; border:solid 1px inherit;" />
                                             
-                                    <input accept="image/jpg, .jpg" type="file" id="txtPix3" class="input-file" placeholder="Art Picture 3" onchange="GetPix(this,'3');" />
+                                    <input accept="image/jpg, .jpg" type="file" id="txtPix3" class="input-file" placeholder="Listing Image 3" onchange="GetPix(this,'3');" />
                                                
                                 </div>
                                 <div class="col-md-3">
-                                    <label title="Upload art picture number one (jpg or png format)" for="txtPix4" class="small mb-1">Art Picture 4
+                                    <label title="Upload Listing Image number one (jpg or png format)" for="txtPix4" class="small mb-1">Listing Image 4
                                         <span class="redtext">*</span>
                                     </label>
                                     <img class="rounded img-thumbnail" id="imgPix4" onclick="LoadPix('imgPix4','4');" style="height:200px; margin-top:10px; border:solid 1px inherit;" />
                                             
-                                    <input accept="image/jpg, .jpg" type="file" id="txtPix4" class="input-file" placeholder="Art Picture 4" onchange="GetPix(this,'4');" />
+                                    <input accept="image/jpg, .jpg" type="file" id="txtPix4" class="input-file" placeholder="Listing Image 4" onchange="GetPix(this,'4');" />
                                                
                                 </div>
                                 <div class="col-md-6" style="display:none;">
@@ -324,57 +324,27 @@ $logged_in = true;
                             </div>
                             <div class="row gx-3 mb-3">
                                 <div class="col-md-5"></div>
-                                <div class="col-md-7">
-                                    <button id="btnAdd" type="button" class="btn btn-primary btn-lg text-white">Request Listing</button>                                
-                                    <button id="btnEdit" type="button" class="btn btn-primary btn-lg text-white">Edit Listing</button>                                
-                                    <button onClick="window.location.reload(true);" type="button" class="btn btn-lg btn-danger">Refresh</button>
+                                <div class="col-md-7 row">
+                                    <div class="col-md-4">
+                                        <button id="btnAdd" type="button" class="btn btn-primary btn-lg text-white">Request Listing</button>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button id="btnEdit" type="button" class="btn btn-primary btn-lg text-white">Edit Listing</button>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button onClick="window.location.reload(true);" type="button" class="btn btn-lg btn-danger">Refresh</button>
+                                    </div>
+                                    
+                                                                    
+                                                                    
+                                    
                                 </div>
                             </div>
                         </div>
                     </form>
                     
                 </div>
-                            <form class="">
-                                <!--Artist/Creation Year-->
-                                
-                                 </div>
-
-                              
-                                                                  
-                                  <!--Dimensions/Location-->
-                                   <!-- <div class="position-relative row form-group"> -->
-                                    <!--Location-->
-                                      
-                                 <!-- </div> -->
                             
-                            </form>
-                            </div>
-                            <div id="upload">
-                                <!-- <form class=""> -->
-                                    
-                                    
-                                    
-                                    
-                                     <!--Documents-->
-                                    <!-- <br><div class="position-relative row form-group">
-                                        
-                                    </div>  -->                         
-                                <!-- </form> -->
-                               <!--  <input type="hidden" id="hidArtId" />
-                                    <input type="hidden" id="hidId" />
-                                    
-                                    <form class="">
-                                        <!--Symbol-->
-                                        
-                                        
-                                        <!--Art Value-->
-                                    <!-- </form>
-                                    <div class="panel-footer">                      
-                                        <div align="right" class="row" style="position:relative;right: 0; margin-top: 12px;">
-                                            <center><button id="btnAdd" type="button" class="col-sm-3 btn btn-fill">Request Listing</button></center>
-                                            <center><button id="btnEdit" disabled type="button" class="col-sm-3 btn btn-info">Edit Listing</button></center>
-                                        </div>
-                                    </div> --> -->
                             </div>
                         </div>
                     </div>
@@ -388,10 +358,10 @@ $logged_in = true;
       <div class="container-fluid">
           <div class="copy-inr">
               <a href="#" class="logo-otr">
-                  <img class="logo" style="min-height: 40px; min-width: 30px; border-radius: 16px;" src="<?php echo base_url(); ?>/newassets/img/naija_art_mart1.png"  alt="brand-logo">
+                  <img class="logo" style="min-height: 40px; min-width: 30px; border-radius: 16px;" src="<?php echo base_url(); ?>/newassets/img/derivedlogo.png"  alt="brand-logo">
               </a>
               <div class="copy-name body-s">
-                  Copyright © 2022  <a href="#" target="_blank" class="name body-sb">Naija Art Mart.</a>
+                  Copyright © 2022  <a href="#" target="_blank" class="name body-sb">Derived Homes.</a>
               </div>
               <div class="all-rights">
                   <p class="all body-s">
@@ -442,7 +412,7 @@ $logged_in = true;
 
 
   <script>
-    var Title='Naija Art Mart Help';
+    var Title='Derived Homes Help';
     var m='',table;
     var Email='<?php echo $email; ?>';
     
@@ -484,7 +454,7 @@ $logged_in = true;
     
   </script>
   <script>
-		var Title='Naija Art Mart Help';
+		var Title='Derived Homes Help';
 		var m='';
 		var Email='<?php echo $email; ?>';
 		var emptypix='<?php echo base_url(); ?>images/empty.jpg';		
@@ -1628,7 +1598,7 @@ $logged_in = true;
 							{
 								if ($.trim(selFiles[i]).toLowerCase() == $.trim(pixfile.name).toLowerCase())
 								{
-									m="You have already selected the artwork picture with filename "+pixfile.name+" for  Art Picture "+i;
+									m="You have already selected the artwork picture with filename "+pixfile.name+" for  Listing Image "+i;
 									displayMessage(m, 'error','Request Listing','error');
 									
 									$('#txtPix'+no).val(''); 

@@ -28,7 +28,7 @@ class Signout extends CI_Controller {
 			echo '<script>window.location.replace("http://localhost/lvi/ui/Login/");</script>';
 		}else
 		{
-			echo '<script>window.location.replace("http://www.naijaartmart.com/ethoz/ui/Login/");</script>';
+			echo '<script>window.location.replace("http://www.derivedhomes.com/ui/Login/");</script>';
 		}
 	}
 }

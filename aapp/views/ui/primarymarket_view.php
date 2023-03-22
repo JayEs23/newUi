@@ -2,8 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <?php
-// echo "<pre>";
-// print_r($LastestPixs); die;
 $logged_in = true;
 
 ?>
@@ -14,8 +12,8 @@ $logged_in = true;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://www.naijaartmart.com/assets/images/favicon_artsquare_16x16.png" sizes="16x16">
-    <title> Naija Art Mart | <?php echo $userType; ?> Primary Market</title>
+    <link rel="icon" href="https://www.naijaartmart.com/assets/images/d_favicon.png" sizes="16x16">
+    <title> Derived Homes | <?php echo $userType; ?> Primary Market</title>
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/owl.carousel/dist/assets/owl.theme.default.min.css">
@@ -253,10 +251,10 @@ $logged_in = true;
       <div class="container-fluid">
           <div class="copy-inr">
               <a href="#" class="logo-otr">
-                  <img class="logo" style="min-height: 40px; min-width: 30px; border-radius: 16px;" src="<?php echo base_url(); ?>/newassets/img/naija_art_mart1.png"  alt="brand-logo">
+                  <img class="logo" style="min-height: 40px; min-width: 30px; border-radius: 16px;" src="<?php echo base_url(); ?>/newassets/img/derivedlogo.png"  alt="brand-logo">
               </a>
               <div class="copy-name body-s">
-                  Copyright © 2022  <a href="#" target="_blank" class="name body-sb">Naija Art Mart.</a>
+                  Copyright © 2022  <a href="#" target="_blank" class="name body-sb">Derived Homes.</a>
               </div>
               <div class="all-rights">
                   <p class="all body-s">
@@ -294,7 +292,7 @@ $logged_in = true;
 
 
 <script>
-    var Title='Naija Art Mart Help';
+    var Title='Derived Homes Help';
     var m='';
     var table,tabletrade,tablenews;
     var Email='<?php echo $email; ?>';

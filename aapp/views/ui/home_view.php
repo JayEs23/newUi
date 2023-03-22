@@ -2,9 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <?php
-
-// print_r($LastestPixs); die();
-
 $logged_in = false;
 
 ?>
@@ -15,8 +12,8 @@ $logged_in = false;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://www.naijaartmart.com/assets/images/favicon_artsquare_16x16.png" sizes="16x16">
-    <title> Naija Art Mart - Art for Everyone.</title>
+    <link rel="icon" href="https://www.naijaartmart.com/assets/images/d_favicon.png" sizes="16x16">
+    <title> Derived Homes - Real Estate for Everyone.</title>
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/newassets/libs/remixicon/fonts/remixicon.css">
@@ -143,23 +140,23 @@ $logged_in = false;
                     <div class="row row-custom">
                         <div class="col-lg-6 col-content-otr">
                             <div class="col-content-inr">
-                                <h1 class="heading-h1 heading">Art Market for Everyone</h1>
-                                <p class="body-l desc">Partner with one of the world’s largest retailers to showcase your brand and products. Partner showcase and products.</p>
+                                <h1 class="heading-h1 heading">Easily Invest in rental homes & Vacation rentals</h1>
+                                <p class="body-l desc">Buy shares of properties, earn rental income and appreciation -- Let Derived Homes take care of the rest.</p>
                                 <div class="action-otr">
                                     <?php 
                                     if ($logged_in) {?>
                                         <div class="action">
-                                            <a href="<?php echo site_url('ui/Login'); ?>" class="btn-fill place-btn">Buy Art</a>
+                                            <a href="<?php echo site_url('ui/Login'); ?>" class="btn-fill place-btn">Buy Tokens</a>
                                         </div>
                                         <div class="action">
                                             <a href="<?php echo site_url('ui/Signup'); ?>" class="btn-outline1 view-btn">Get Started</a>
                                         </div>
                                     <?php }else{?>
                                         <div class="action">
-                                            <a href="../../primaryMarket" class="btn-fill place-btn">Buy Art</a>
+                                            <a href="#" class="btn-fill place-btn">Buy Tokens</a>
                                         </div>
                                         <div class="action">
-                                            <a href="../../secondaryMarket" class="btn-outline1 view-btn">Invest in Art</a>
+                                            <a href="#" class="btn-outline1 view-btn">Invest in Real Estate</a>
                                         </div>
                                     <?php }
 
@@ -186,17 +183,17 @@ $logged_in = false;
                             <div class="row col-imgs-inr">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-img-otr">
                                     <div class="col-img-inr">
-                                        <img class="img" src="https://www.naijaartmart.com/assets/front/images/shape-the-future.jpg" alt="img">
+                                        <img class="img" src="https://www.naijaartmart.com/assets/front/images/derived1.jpg" alt="img">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-img-otr">
                                     <div class="col-img-inr">
-                                        <img class="img" src="https://www.naijaartmart.com/assets/front/images/the-art-market.jpg" alt="img">
+                                        <img class="img" src="https://www.naijaartmart.com/assets/front/images/derived2.jpg" alt="img">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-img-otr">
                                     <div class="col-img-inr">
-                                        <img class="img" src="https://www.naijaartmart.com/assets/front/images/we-have-designed.jpg" alt="img">
+                                        <img class="img" src="https://www.naijaartmart.com/assets/front/images/derived3.jpg" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -264,10 +261,10 @@ $logged_in = false;
             <div class="container-fluid">
                 <div class="copy-inr">
                     <a href="#" class="logo-otr">
-                        <img class="logo" style="min-height: 40px; min-width: 30px; border-radius: 16px;" src="<?php echo base_url(); ?>/newassets/img/naija_art_mart1.png"  alt="brand-logo">
+                        <img class="logo" style="min-height: 40px; min-width: 30px; border-radius: 16px;" src="<?php echo base_url(); ?>/newassets/img/derivedlogo.png"  alt="brand-logo">
                     </a>
                     <div class="copy-name body-s">
-                        Copyright © <?php echo date('Y') ?>  <a href="#" target="_blank" class="name body-sb">Naija Art Mart.</a>
+                        Copyright © <?php echo date('Y') ?>  <a href="#" target="_blank" class="name body-sb">Derived Homes</a>
                     </div>
                     <div class="all-rights">
                         <p class="all body-s">
