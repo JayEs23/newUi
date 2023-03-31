@@ -300,7 +300,7 @@ $artwork = $LastestPixs;
                                     </div>
                                 </div>
                                 <span class="line"></span>
-                                <h4 class="heading-h4 head" style="text-align:center !important;">Art work Description
+                                <h4 class="heading-h4 head" style="text-align:center !important;">Property Description
                                 </h4>
                                 <p class="body-m desc para1" style="display: contents; !important;">
                                     <?php echo trim(htmlspecialchars_decode($artwork['description'])); ?>

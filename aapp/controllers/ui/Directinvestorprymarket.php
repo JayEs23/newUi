@@ -71,8 +71,9 @@ class Directinvestorprymarket extends CI_Controller {
 
 		if ($results)
 		{
-			$chr_count=floor($detail_width/8);
-			$head_count=floor($header_width/8);
+			// die($detail_width);
+			$chr_count= (gettype($detail_width) != 'int') ? 0 : floor($detail_width/8);
+			$head_count= (gettype($header_width) != 'int') ? 0 : floor($header_width/8);
 			
 			foreach($results as $row):
 				$view=''; $dt=''; $details=''; $header='';

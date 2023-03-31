@@ -738,7 +738,7 @@ class Getdata_model extends CI_Model
 	
 	function GetLatestListings()
 	{
-		$sql = "SELECT *,(SELECT blockchainUrl FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS blockchainUrl,(SELECT art_pix1 FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS pix,(SELECT title FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS title,(SELECT creationyear FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS creationyear,(SELECT artist FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS artist,(SELECT artwork_value FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS artwork_value FROM listed_artworks ORDER BY datelisted DESC LIMIT 12";
+		$sql = "SELECT *,(SELECT blockchainUrl FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS blockchainUrl,(SELECT art_pix1 FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS pix,(SELECT title FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS title,(SELECT creationyear FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS creationyear,(SELECT artist FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS artist,(SELECT artwork_value FROM art_works WHERE TRIM(art_works.symbol)=TRIM(listed_artworks.symbol) LIMIT 0,1) AS artwork_value FROM listed_artworks ORDER BY datelisted DESC LIMIT 5";
 
 		$query = $this->db->query($sql);
 			
