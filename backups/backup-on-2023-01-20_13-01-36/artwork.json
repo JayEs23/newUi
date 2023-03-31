@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "art_works",
+  "description": "JSON schema for the art_works table",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "description": "The email of the person who created the artwork.",
+      "nullable": true
+    },
+    "issuer_id": {
+      "type": "integer",
+      "description": "The ID of the person who issued the artwork.",
+      "nullable": true
+    },
+    "artist": {
+      "type": "string",
+      "description": "The name of the artist who created the artwork.",
+      "nullable": true
+    },
+    "art_id": {
+      "type": "integer",
+      "description": "The ID of the artwork.",
+      "nullable": true
+    },
+    "title": {
+      "type": "string",
+      "description": "The title of the artwork.",
+      "nullable": true
+    },
+    "symbol": {
+      "type": "string",
+      "description": "The symbol of the artwork.",
+      "nullable": true
+    },
+    "creationyear": {
+      "type": "integer",
+      "description": "The year the artwork was created.",
+      "nullable": true
+    },
+    "dimensions": {
+      "type": "string",
+      "description": "The dimensions of the artwork.",
+      "nullable": true
+    },
+    "materials": {
+      "type": "string",
+      "description": "The materials used to create the artwork.",
+      "nullable": true
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of the artwork.",
+      "nullable": true
+    },
+    "document": {
+      "type": "string",
+      "description": "The document associated with the artwork.",
+      "nullable": true
+    },
+    "display_location": {
+      "type": "string",
+      "description": "The location where the artwork is displayed.",
+      "nullable": true
+    },
+    "artwork_value": {
+      "type": "number",
+      "description": "The value of the artwork.",
+      "nullable": true
+    },
+    "tokens": {
+      "type": "integer",
+      "description": "The number of tokens associated with the artwork.",
+      "nullable": true
+    },
+    "tokens_for_sale": {
+      "type": "integer",
+      "description": "The number of tokens available for sale for the artwork.",
+      "nullable": true
+    },
+    "price_per_token": {
+      "type": "number",
+      "description": "The price per token for the artwork.",
+      "nullable": true
+    },
+    "listing_starts": {
+      "type": "string",
+      "format": "date",
+      "description": "The date when the artwork listing starts.",
+      "nullable": true
+    },
+    "listing_ends": {
+      "type": "string",
+      "format": "date",
+      "description": "The date when the artwork listing ends.",
+      "nullable": true
+    },
+    "holding_period_ends": {
+      "type": "string",
+      "format": "date",
+      "description": "The date when the holding period for the artwork ends.",
+      "nullable": true
+    },
+    "art_pix1": {
+      "type": "string",
+      "description": "The first picture of the artwork

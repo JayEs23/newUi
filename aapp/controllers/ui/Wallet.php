@@ -270,11 +270,13 @@ class Wallet extends CI_Controller {
 		//Get Settings
 		$settings=$this->getdata_model->GetParamaters();
 		
+		
 		if ($settings->runmode) $runmode=trim($settings->runmode);
 		
 		#Get PayStack Settings
 		$PayStackSettings = $this->getdata_model->GetPaystackSettings();
-		
+		// print_r($PayStackSettings);
+		// die;
 		if (strtolower(trim($runmode))=='sandbox')
 		{
 			if ($PayStackSettings->Sandbox_SecretKey) $SecretKey=trim($PayStackSettings->Sandbox_SecretKey);
@@ -437,7 +439,7 @@ class Wallet extends CI_Controller {
 								
 						if ( $query->num_rows() > 0 )
 						{
-							/*$row = $query->row();			
+							$row = $query->row();			
 							
 							if ($row->balance) $bal=$row->balance;
 							
@@ -455,10 +457,10 @@ class Wallet extends CI_Controller {
 							$this->db->trans_start();
 							$this->db->where(array('email'=>$email, 'transref'=>$TransRef));
 							$this->db->update('payment_log', array('wallet_update' => 1));			
-							$this->db->trans_complete();*/
+							$this->db->trans_complete();
 						}else
 						{
-							/*$bal=$VerifiedAmount;
+							$bal=$VerifiedAmount;
 							
 							//Insert wallet table
 							$dat=array(
@@ -475,7 +477,7 @@ class Wallet extends CI_Controller {
 							$this->db->trans_start();
 							$this->db->where(array('email'=>$email, 'transref'=>$TransRef));
 							$this->db->update('payment_log', array('wallet_update' => 1));			
-							$this->db->trans_complete();*/
+							$this->db->trans_complete();
 						}		
 						
 						/*if (trim(strtoupper($currency))=='NGN') $cur='&#8358;';
@@ -535,7 +537,7 @@ class Wallet extends CI_Controller {
 						
 						$this->db->trans_complete();
 																		
-						$m='Transaction Was Not Successful.';
+						$m='Transaction Was Not Successful. => '.$m;
 						
 						$ret = array('status'=>'Fail','messages'=>$m);
 					}			
@@ -552,7 +554,7 @@ class Wallet extends CI_Controller {
 				
 				$this->db->trans_complete();
 				
-				$m='Transaction Was Not Successful.';
+				$m='Transaction Was Not Successful. => '.$m;
 				$ret = array('status'=>'Fail','messages'=>$m);
 			}		
 		}else

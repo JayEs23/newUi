@@ -792,7 +792,7 @@ $logged_in = true;
             {
               var handler = PaystackPop.setup({
                 //key: 'pk_test_eea6f8898c138852d1c14365b6c60b0527756d1c',
-                key: 'pk_live_69f5239e0a3ac14d00f45230d4f08148f4e459d3',
+                key: 'pk_test_8a3cb47a51ef50f7eb36be01eaedecb388c0efa4',
                 email: Email,
                 amount: TransAmt,
                 reference: sid,

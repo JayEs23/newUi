@@ -153,7 +153,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         {
                             echo '
 							  <div class="row">
-								<div class="col-md-6 col-xl-6">									
+								<div class="col-md-4 col-xl-4">									
 									<div class="card mb-3 widget-content ">
 										<div class="widget-content-wrapper text-white">
 											<div class="widget-content-left">
@@ -167,7 +167,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									</div>
 								</div>								
 											   
-								<div class="col-md-6 col-xl-6">
+								<div class="col-md-4 col-xl-4">
 									<div class="card mb-3 widget-content ">
 										<div class="widget-content-wrapper text-white">
 											<div class="widget-content-left">
@@ -187,7 +187,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							//Row 2 - Secondary Trades/Primary Trades
 							echo '
 							  <div class="row">
-								<div class="col-md-6 col-xl-6">
+								<div class="col-md-6 col-xl-4">
 									<div class="card mb-3 widget-content ">
 										<div class="widget-content-wrapper text-white">
 											<div class="widget-content-left">
@@ -202,7 +202,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</div>								
 								
 								
-								<div class="col-md-6 col-xl-6">
+								<div class="col-md-6 col-xl-4">
 									<div class="card mb-3 widget-content ">
 										<div class="widget-content-wrapper text-white">
 											<div class="widget-content-left">
@@ -222,7 +222,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							//Row 3 - Securties In Secondary Trades/Assets Primary Trades
 							echo '
 							  <div class="row">
-								<div class="col-md-6 col-xl-6">
+								<div class="col-md-6 col-xl-4">
 									<div class="card mb-3 widget-content ">
 										<div class="widget-content-wrapper text-white">
 											<div class="widget-content-left">
@@ -237,7 +237,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</div>
 								
 								
-								<div class="col-md-6 col-xl-6">
+								<div class="col-md-6 col-xl-4">
 									<div class="card mb-3 widget-content ">
 										<div class="widget-content-wrapper text-white">
 											<div class="widget-content-left">
@@ -257,7 +257,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							//Row 4 - Approved Assets/Assets Awaiting Approval
 							echo '
 							  <div class="row">
-								<div class="col-md-6 col-xl-6">
+								<div class="col-md-6 col-xl-4">
 									<div class="card mb-3 widget-content ">
 										<div class="widget-content-wrapper text-white">
 											<div class="widget-content-left">
@@ -271,7 +271,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									</div>
 								</div>												
 								
-								<div class="col-md-6 col-xl-6">
+								<div class="col-md-6 col-xl-4">
 									<div class="card mb-3 widget-content ">
 										<div class="widget-content-wrapper text-white">
 											<div class="widget-content-left">
@@ -292,7 +292,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							//Row 5 - Day Total Market Value/Total Market Value
 							echo '
 							  <div class="row">
-								<div class="col-md-6 col-xl-6">
+								<div class="col-md-6 col-xl-4">
 									<div class="card mb-3 widget-content ">
 										<div class="widget-content-wrapper text-white">
 											<div class="widget-content-left">
@@ -307,7 +307,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</div>
 														   
 								
-								<div class="col-md-6 col-xl-6">
+								<div class="col-md-6 col-xl-4">
 									<div class="card mb-3 widget-content ">
 										<div class="widget-content-wrapper text-white">
 											<div class="widget-content-left">

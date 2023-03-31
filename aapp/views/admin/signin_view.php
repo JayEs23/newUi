@@ -337,7 +337,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div>
                                     <div class="position-relative h-100 d-flex justify-content-center align-items-center bg-premium-dark" tabindex="-1">
                                         <div class="slide-img-bg" style="background-image: url('https://www.rlbaccountants.com/wp-content/uploads/2020/02/realestate.jpg');"></div>
-                                        <div class="slider-content"><h3>Innovative Exchange</h3>
+                                        <div class="slider-content"><h2>Derived Homes</h2>
                                             <p>The New Real Estate Market For Everyone.</p></div>
                                     </div>
                                 </div>

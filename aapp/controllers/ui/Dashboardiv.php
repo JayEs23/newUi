@@ -66,6 +66,8 @@ class Dashboardiv extends CI_Controller {
 	
 	public function index()
 	{
+		// phpinfo();
+		// die;
 		$data['lastname']=''; $data['firstname']=''; $data['email']=''; $data['phone']=''; $data['pix']='';
 		$data['accountstatus'] = ''; $data['role'] = ''; $data['pix'] = '';
 		

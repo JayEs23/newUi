@@ -535,7 +535,7 @@ echo '			</ul>
             </ul>
         </div>
         
-        <center><img id="imgSideMenu" src="<?php echo base_url(); ?>images/smallheader.png" alt=""></center> 
+        <center><img id="imgSideMenu" src="<?php echo base_url(); ?>images/d_favicon.png" style="width:60px" alt=""></center> 
          
     </div>
 </div>
