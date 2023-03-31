@@ -174,7 +174,7 @@ $logged_in = true;
                                   <thead>
                                     <tr>
                                         <th style="text-align:center" width="10%">PICTURE</th>
-                                        <th style="text-align:center" width="21%">ART WORK TITLE</th>
+                                        <th style="text-align:center" width="21%">PROPERTY TITLE</th>
                                         <th style="text-align:right" width="10%">VALUE</th> 
                                         <th style="text-align:center" width="10%">TOKENS</th>
                                         <th style="text-align:right" width="10%">PRICE/TOKEN</th>

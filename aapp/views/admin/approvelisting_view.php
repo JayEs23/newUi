@@ -1146,7 +1146,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                               <thead>
                                                 <tr>
                                                     <th style="text-align:center" width="10%">PICTURE</th>
-                                                    <th style="text-align:center" width="21%">ARTWORK TITLE</th>
+                                                    <th style="text-align:center" width="21%">PROPERTY TITLE</th>
                                                     <th style="text-align:right; padding-right:10px;" width="10%">VALUE&nbsp;(&#8358;)</th> 
                                                     <th style="text-align:center" width="10%">TOKENS</th>
                                                     <th style="text-align:right; padding-right:10px;" width="10%">PRICE/TOKEN&nbsp;(&#8358;)</th>
